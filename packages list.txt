@@ -1,0 +1,226 @@
+
+C:\Users\atippmd\Desktop\custom_recovery\adb-tools>adb devices
+List of devices attached
+TA88101OU3      device
+
+
+C:\Users\atippmd\Desktop\custom_recovery\adb-tools>adb shell
+shell@falcon_cdma:/ $ ls -l
+ls -l
+drwxr-xr-x root     root              1970-02-03 16:22 acct
+drwxrwx--- system   cache             2015-06-03 08:27 cache
+-rwxr-x--- root     root       276396 1969-12-31 19:00 charger
+dr-x------ root     root              1970-02-03 16:22 config
+lrwxrwxrwx root     root              1970-02-03 16:22 d -> /sys/kernel/debug
+drwxrwx--x system   system            2015-06-03 08:43 data
+-rw-r--r-- root     root          107 1969-12-31 19:00 default.prop
+drwxr-xr-x root     root              2015-06-03 08:42 dev
+lrwxrwxrwx root     root              1970-02-03 16:22 etc -> /system/etc
+-rw-r--r-- root     root         9910 1969-12-31 19:00 file_contexts
+drwxr-xr-x root     root              1969-12-31 19:00 firmware
+drwxr-xr-x root     root              1969-12-31 19:00 fsg
+-rw-r----- root     root         1086 1969-12-31 19:00 fstab.qcom
+-rwxr-x--- root     root       257796 1969-12-31 19:00 init
+-rwxr-x--- root     root          919 1969-12-31 19:00 init.environ.rc
+-rwxr-x--- root     root         3038 1969-12-31 19:00 init.mmi.boot.sh
+-rwxr-x--- root     root          346 1969-12-31 19:00 init.mmi.radio.sh
+-rwxr-x--- root     root        16121 1969-12-31 19:00 init.mmi.rc
+-rwxr-x--- root     root         4562 1969-12-31 19:00 init.mmi.touch.sh
+-rwxr-x--- root     root        12015 1969-12-31 19:00 init.mmi.usb.rc
+-rwxr-x--- root     root         8790 1969-12-31 19:00 init.mmi.usb.sh
+-rwxr-x--- root     root         7439 1969-12-31 19:00 init.qcom.class_core.sh
+-rwxr-x--- root     root         2530 1969-12-31 19:00 init.qcom.class_main.sh
+-rwxr-x--- root     root         6206 1969-12-31 19:00 init.qcom.early_boot.sh
+-rwxr-x--- root     root        21835 1969-12-31 19:00 init.qcom.rc
+-rwxr-x--- root     root         3111 1969-12-31 19:00 init.qcom.ril.sh
+-rwxr-x--- root     root         7231 1969-12-31 19:00 init.qcom.sh
+-rwxr-x--- root     root         4561 1969-12-31 19:00 init.qcom.ssr.sh
+-rwxr-x--- root     root         3789 1969-12-31 19:00 init.qcom.syspart_fixup.sh
+-rwxr-x--- root     root        21413 1969-12-31 19:00 init.rc
+-rwxr-x--- root     root         4598 1969-12-31 19:00 init.sprint.rc
+-rwxr-x--- root     root         4120 1969-12-31 19:00 init.target.rc
+-rwxr-x--- root     root         1999 1969-12-31 19:00 init.trace.rc
+-rwxr-x--- root     root         3915 1969-12-31 19:00 init.usb.rc
+drwxrwxr-x root     system            1970-02-03 16:22 mnt
+-r-------- root     root          451 1969-12-31 19:00 module_hashes
+drwxr-xr-x root     root              1969-12-31 19:01 pds
+drwxrwx--x system   system            2014-02-05 16:56 persist
+dr-xr-xr-x root     root              1969-12-31 19:00 proc
+-rw-r--r-- root     root         2274 1969-12-31 19:00 property_contexts
+drwxr-xr-x root     root              1969-12-31 19:00 res
+drwx------ root     root              2014-03-13 16:18 root
+drwxr-x--- root     root              1969-12-31 19:00 sbin
+lrwxrwxrwx root     root              1970-02-03 16:22 sdcard -> /storage/emulated/legacy
+-rw-r--r-- root     root          828 1969-12-31 19:00 seapp_contexts
+-rw-r--r-- root     root        76709 1969-12-31 19:00 sepolicy
+dr-xr-xr-x system   sdcard_r          1970-02-03 16:22 storage
+dr-xr-xr-x root     root              1970-02-03 16:22 sys
+drwxr-xr-x root     root              2024-04-13 10:13 system
+drwxr-xr-x root     root              2015-06-03 08:42 tmp-mksh
+lrwxrwxrwx root     root              1970-02-03 16:22 tombstones -> /data/tombstones
+-rw-r--r-- root     root        10045 1969-12-31 19:00 ueventd.qcom.rc
+-rw-r--r-- root     root         4137 1969-12-31 19:00 ueventd.rc
+lrwxrwxrwx root     root              1970-02-03 16:22 vendor -> /system/vendor
+drwxr-xr-x root     root              1969-12-31 19:00 xbin
+shell@falcon_cdma:/ $ pm list packages -f
+pm list packages -f
+package:/system/app/TimeService.apk=com.qualcomm.timeservice
+package:/system/app/atfwd.apk=com.qualcomm.atfwd
+package:/system/priv-app/DefaultContainerService.apk=com.android.defcontainer
+package:/system/priv-app/Launcher2.apk=com.android.launcher
+package:/system/app/PartnerBookmarksProvider.apk=com.android.providers.partnerbookmarks
+package:/system/priv-app/Contacts.apk=com.android.contacts
+package:/system/priv-app/TeleService.apk=com.android.phone
+package:/system/app/Calculator.apk=com.android.calculator2
+package:/system/priv-app/SprintDataService.apk=com.motorola.android.omadm.sprint.dataservice
+package:/system/priv-app/SprintInstaller.apk=com.sprint.ce.updater
+package:/system/app/HTMLViewer.apk=com.android.htmlviewer
+package:/system/priv-app/DemoMode.apk=com.motorola.demomode
+package:/system/app/CellBroadcastReceiver.apk=com.android.cellbroadcastreceiver
+package:/system/priv-app/GoogleLoginService.apk=com.google.android.gsf.login
+package:/system/app/Bluetooth.apk=com.android.bluetooth
+package:/system/priv-app/CalendarProvider.apk=com.android.providers.calendar
+package:/system/priv-app/DSS.apk=com.sprint.dsa
+package:/system/priv-app/SprintExtensionService.apk=com.sprint.extension
+package:/system/app/3c_main.apk=com.motorola.ccc.main
+package:/system/priv-app/Calendar.apk=com.android.calendar
+package:/system/app/ProgramMenu.apk=com.motorola.programmenu
+package:/system/priv-app/SprintRoaming.apk=com.motorola.sprintroaming
+package:/system/app/DownloadProviderUi.apk=com.android.providers.downloads.ui
+package:/system/app/DocumentsUI.apk=com.android.documentsui
+package:/system/priv-app/SharedStorageBackup.apk=com.android.sharedstoragebackup
+package:/system/priv-app/VpnDialogs.apk=com.android.vpndialogs
+package:/system/priv-app/Mms.apk=com.android.mms
+package:/system/priv-app/fswriter.apk=com.motorola.migrate
+package:/system/app/QualcommSettings.apk=com.qualcomm.qualcommsettings
+package:/system/priv-app/MediaProvider.apk=com.android.providers.media
+package:/system/app/talkback.apk=com.google.android.marvin.talkback
+package:/system/app/CertInstaller.apk=com.android.certinstaller
+package:/system/app/DeskClockGoogle.apk=com.google.android.deskclock
+package:/data/app/com.google.android.gms-1.apk=com.google.android.gms
+package:/system/app/PhotoTable.apk=com.android.dreams.phototable
+package:/system/priv-app/SetupWizard.apk=com.google.android.setupwizard
+package:/system/priv-app/UtilityService.apk=com.motorola.android.sprintomadm.utilityservice
+package:/system/priv-app/DeviceAuthApp.apk=com.motorola.deviceauthenticator
+package:/system/priv-app/SprintSystemDataService.apk=com.motorola.android.omadm.sprint.systemdataservice
+package:/system/priv-app/Settings.apk=com.android.settings
+package:/system/app/Street.apk=com.google.android.street
+package:/system/app/SmartActionFW.apk=com.motorola.contextual.fw
+package:/system/app/HPLegacyPlugin.apk=com.hp.android.printservice
+package:/system/priv-app/ContextEngineClient.apk=com.motorola.context
+package:/system/priv-app/Velvet.apk=com.google.android.googlequicksearchbox
+package:/system/priv-app/SprintZone.apk=com.sprint.zone
+package:/system/app/VisualizationWallpapers.apk=com.android.musicvis
+package:/system/app/Music2.apk=com.google.android.music
+package:/system/app/Exchange2.apk=com.android.exchange
+package:/system/priv-app/3c_sso.apk=com.motorola.ccc.sso.app
+package:/system/app/LiveWallpapersPicker.apk=com.android.wallpaper.livepicker
+package:/system/priv-app/HiddenMenu.apk=com.motorola.hiddenmenuapp
+package:/system/app/PackageInstaller.apk=com.android.packageinstaller
+package:/system/app/LatinImeGoogle.apk=com.google.android.inputmethod.latin
+package:/system/priv-app/GoogleBackupTransport.apk=com.google.android.backuptransport
+package:/data/app/com.google.android.tts-1.apk=com.google.android.tts
+package:/system/app/TelephonyProvider.apk=com.android.providers.telephony
+package:/system/priv-app/MotoAssist.apk=com.motorola.contextual.smartrules2
+package:/system/priv-app/MotAuthService.apk=com.motorola.authentication
+package:/system/app/FMRadioService.apk=com.motorola.android.fmradio
+package:/system/app/PreloadContacts.apk=com.motorola.contacts.preloadcontacts
+package:/system/priv-app/NetworkStatusService.apk=com.motorola.networkstatusservice
+package:/system/app/NoiseField.apk=com.android.noisefield
+package:/system/app/Email.apk=com.android.email
+package:/system/app/GMS_Maps.apk=com.google.android.apps.maps
+package:/system/priv-app/Dialer.apk=com.android.dialer
+package:/system/app/CloudPrint.apk=com.google.android.apps.cloudprint
+package:/system/priv-app/WallpaperCropper.apk=com.android.wallpapercropper
+package:/system/priv-app/FusedLocation.apk=com.android.location.fused
+package:/system/priv-app/BackupRestoreConfirmation.apk=com.android.backupconfirm
+package:/system/app/MagicSmokeWallpapers.apk=com.android.magicsmoke
+package:/system/priv-app/SettingsProvider.apk=com.android.providers.settings
+package:/system/app/AvatarPermissionsApp.apk=com.motorola.avatarpermissions.app
+package:/system/priv-app/3c_ota.apk=com.motorola.ccc.ota
+package:/system/app/com.qualcomm.services.location.apk=com.qualcomm.services.location
+package:/system/app/Drive.apk=com.google.android.apps.docs
+package:/system/priv-app/DownloadProvider.apk=com.android.providers.downloads
+package:/system/app/BrowserProviderProxy.apk=com.android.browser.provider
+package:/system/priv-app/DigitalPersonalization.apk=com.motorola.digitalpersonalization
+package:/system/app/Books.apk=com.google.android.apps.books
+package:/system/app/PhaseBeam.apk=com.android.phasebeam
+package:/system/priv-app/SprintSettings.apk=com.motorola.settings
+package:/system/app/SoundRecorder.apk=com.android.soundrecorder
+package:/system/priv-app/MotorolaSettingsProvider.apk=com.motorola.android.providers.settings
+package:/data/app/com.google.android.videos-1.apk=com.google.android.videos
+package:/system/priv-app/3c_checkin.apk=com.motorola.ccc.checkin
+package:/system/app/QComQMIPermissions.apk=com.android.qualcomm.qcom_qmi
+package:/system/priv-app/GoogleOneTimeInitializer.apk=com.google.android.onetimeinitializer
+package:/system/app/ModemStatsService.apk=com.motorola.bach.modemstats
+package:/system/priv-app/VVM.apk=com.coremobility.app.vnotes
+package:/system/priv-app/GooglePartnerSetup.apk=com.google.android.partnersetup
+package:/system/priv-app/ProxyHandler.apk=com.android.proxyhandler
+package:/system/priv-app/3c_devicemanagement.apk=com.motorola.ccc.devicemanagement
+package:/system/app/MotGeoFenceSvc.apk=com.motorola.motgeofencesvc
+package:/system/app/com.motorola.android.nativedropboxagent.apk=com.motorola.android.nativedropboxagent
+package:/system/priv-app/Moodles.apk=com.motorola.moodles
+package:/system/priv-app/CQATest.apk=com.motorola.motocit
+package:/system/priv-app/InputDevices.apk=com.android.inputdevices
+package:/data/app/stericson.busybox-1.apk=stericson.busybox
+package:/system/app/HoloSpiralWallpaper.apk=com.android.wallpaper.holospiral
+package:/system/priv-app/GoogleFeedback.apk=com.google.android.feedback
+package:/data/app/com.google.android.talk-1.apk=com.google.android.talk
+package:/system/priv-app/MotoCareInt.apk=com.motorola.motocare.internal
+package:/system/app/MotoSignatureApp.apk=com.motorola.motosignature.app
+package:/system/priv-app/MotGallery2.apk=com.motorola.MotGallery2
+package:/system/app/Stk.apk=com.android.stk
+package:/data/app/com.motorola.genie-1.apk=com.motorola.genie
+package:/system/app/UserDictionaryProvider.apk=com.android.providers.userdictionary
+package:/system/priv-app/ConfigUpdater.apk=com.google.android.configupdater
+package:/system/priv-app/FMPlayer.apk=com.motorola.fmplayer
+package:/system/priv-app/3c_notification.apk=com.motorola.ccc.notification
+package:/system/app/PacProcessor.apk=com.android.pacprocessor
+package:/system/priv-app/MotCamera.apk=com.motorola.camera
+package:/system/app/BluetoothExt.apk=org.codeaurora.bluetooth
+package:/system/app/Setup.apk=com.motorola.setup
+package:/system/app/Quickoffice.apk=com.quickoffice.android
+package:/system/app/PrintSpooler.apk=com.android.printspooler
+package:/system/priv-app/SprintID.apk=com.sprint.w.installer
+package:/system/priv-app/AudioEffects.apk=com.motorola.audioeffects
+package:/system/app/com.motorola.android.settings.diag_mdlog.apk=com.motorola.android.settings.diag_mdlog
+package:/system/app/GoogleCalendarSyncAdapter.apk=com.google.android.syncadapters.calendar
+package:/system/priv-app/slate.apk=com.motorola.android.slate
+package:/system/framework/framework-res.apk=android
+package:/system/app/ProgramMenuSystem.apk=com.motorola.pgmsystem2
+package:/system/priv-app/ContactsProvider.apk=com.android.providers.contacts
+package:/system/app/com.qualcomm.location.apk=com.qualcomm.location
+package:/system/priv-app/MotoOneTimeInitializer.apk=com.motorola.onetimeinitializer
+package:/system/app/MediaUploader.apk=com.google.android.apps.uploader
+package:/system/priv-app/ExternalStorageProvider.apk=com.android.externalstorage
+package:/system/app/Translate.apk=com.google.android.apps.translate
+package:/system/app/BasicDreams.apk=com.android.dreams.basic
+package:/system/priv-app/SprintOverlayProvider.apk=com.motorola.sprint.omadm.overlay
+package:/system/app/PlusOne.apk=com.google.android.apps.plus
+package:/system/priv-app/Phonesky.apk=com.android.vending
+package:/system/app/PlayGames.apk=com.google.android.play.games
+package:/system/priv-app/SprintOMADM2.apk=com.motorola.android.omadm.sprint.client
+package:/system/priv-app/SystemUI.apk=com.android.systemui
+package:/system/priv-app/MotoCare.apk=com.motorola.motocare
+package:/system/priv-app/SprintEntitlement.apk=com.motorola.sprint.entitlement
+package:/system/priv-app/cce.apk=com.motorola.ccc.cce
+package:/system/app/KeyChain.apk=com.android.keychain
+package:/system/app/Gmail2.apk=com.google.android.gm
+package:/system/app/TagGoogle.apk=com.google.android.tag
+package:/system/app/LiveWallpapers.apk=com.android.wallpaper
+package:/system/priv-app/LMIRescueSecurity.apk=com.lmi.motorola.rescuesecurity
+package:/system/app/Superuser.apk=eu.chainfire.supersu
+package:/system/priv-app/SprintCBS.apk=com.motorola.android.cbs.sprint.dynamic
+package:/system/priv-app/BOTATriggerService.apk=com.motorola.android.omadm.sprint.client.botatriggerservice
+package:/system/priv-app/DriveActivator.apk=com.motorola.services.apps.driveactivator
+package:/data/app/com.google.android.youtube-1.apk=com.google.android.youtube
+package:/data/app/com.google.android.apps.magazines-1.apk=com.google.android.apps.magazines
+package:/system/priv-app/SprintPhoneDataService.apk=com.motorola.android.omadm.sprint.phonedataservice
+package:/system/priv-app/GoogleServicesFramework.apk=com.google.android.gsf
+package:/system/priv-app/Keyguard.apk=com.android.keyguard
+package:/system/app/FaceLock.apk=com.android.facelock
+package:/data/app/com.android.chrome-1.apk=com.android.chrome
+package:/system/priv-app/Shell.apk=com.android.shell
+package:/system/app/Bug2GoStub.apk=com.motorola.bug2go
+package:/system/app/GoogleContactsSyncAdapter.apk=com.google.android.syncadapters.contacts
+shell@falcon_cdma:/ $

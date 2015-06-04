@@ -1,0 +1,268 @@
+
+shell@falcon_cdma:/ $ ls -l /system/bin/
+ls -l /system/bin/
+-rwxr-xr-x root     shell       27496 2024-02-11 21:24 ATFWD-daemon
+-rwxr-xr-x root     shell        9432 2024-02-11 21:24 Omadmloadproperty
+-rwxr-xr-x root     shell        5396 2024-02-11 21:24 PktRspTest
+-rwxr-xr-x root     shell       26000 2013-11-06 22:12 StoreKeybox
+lrwxr-xr-x root     shell             2013-11-06 22:16 [ -> motobox
+-rwxr-xr-x root     shell        5564 2013-11-06 22:12 adsprpcd
+-rwxr-xr-x root     shell      115420 2013-11-06 22:12 akmd8963
+-rwxr-xr-x root     shell         210 2024-02-11 21:24 am
+-rwxr-xr-x root     shell       56971 2013-11-06 22:12 ap_gain.bin
+-rwxr-xr-x root     shell       27910 2024-02-11 21:24 ap_gain_mmul.bin
+-rwxr-xr-x root     shell         948 2013-11-06 22:12 apanic_annotate.sh
+-rwxr-xr-x root     shell       30256 2024-02-11 21:24 aplogcat
+-rwxr-xr-x root     shell       38332 2024-02-11 21:24 aplogd
+-rwxr-xr-x root     shell        9488 2024-02-11 21:24 app_process
+-rwxr-xr-x root     shell       53588 2024-02-11 21:24 applypatch
+-rwxr-xr-x root     shell       17884 2024-02-11 21:24 atrace
+-rwxr-xr-x root     shell       21776 2024-02-11 21:24 batch
+-rwxr-xr-x root     shell       17624 2024-02-11 21:24 batt_health
+-rwxr-xr-x root     shell         118 2008-08-01 08:00 battery.sh
+-rwxr-xr-x root     shell        9504 2008-08-01 08:00 blkid
+-rwxr-xr-x root     shell         199 2013-11-06 22:12 bmgr
+-rwxr-xr-x root     shell       25872 2024-02-11 21:24 bootanimation
+-rwxr-xr-x root     shell       21828 2024-02-11 21:24 brctl
+-rwxr-xr-x root     shell       34376 2024-02-11 21:24 bridgemgrd
+-rwxr-xr-x root     shell        9576 2024-02-11 21:24 btnvtool
+-rwxr-xr-x root     shell         156 2013-11-06 22:12 bu
+-rwxr-xr-x root     shell       13616 2024-02-11 21:24 bug2go-bugreport
+-rwxr-xr-x root     shell        2291 2013-11-06 22:12 bug2go-bugreport-oem
+-rwxr-xr-x root     shell        5336 2024-02-11 21:24 bugreport
+lrwxr-xr-x root     shell             2013-11-06 22:16 cat -> toolbox
+-rwxr-xr-x root     shell      138108 2024-02-11 21:24 charge_only_mode
+-rwxr-xr-x root     shell        9508 2013-11-06 22:12 charger_monitor
+lrwxr-xr-x root     shell             2013-11-06 22:16 chcon -> toolbox
+lrwxr-xr-x root     shell             2013-11-06 22:16 chmod -> toolbox
+lrwxr-xr-x root     shell             2013-11-06 22:16 chown -> toolbox
+-rwxr-xr-x root     shell       21776 2024-02-11 21:24 clatd
+lrwxr-xr-x root     shell             2013-11-06 22:16 clear -> toolbox
+lrwxr-xr-x root     shell             2013-11-06 22:16 cmp -> toolbox
+-rwxr-xr-x root     shell         207 2013-11-06 22:12 content
+lrwxr-xr-x root     shell             2013-11-06 22:16 cp -> toolbox
+-rwxr-xr-x root     shell        9804 2024-02-11 21:24 crda
+-rwxr-xr-x root     shell       62744 2024-02-11 21:24 curl
+-rwxr-xr-x root     shell        9432 2024-02-11 21:24 dalvikvm
+lrwxr-xr-x root     shell             2013-11-06 22:16 date -> toolbox
+-rwxr-xr-x root     shell       38760 2024-02-11 21:24 dbvc_atvc_property_set
+lrwxr-xr-x root     shell             2013-11-06 22:16 dd -> toolbox
+-rwxr-xr-x root     shell       21720 2024-04-13 10:12 debuggerd
+-rwxr-xr-x root     shell       62736 2008-08-01 08:00 dex2oat
+-rwxr-xr-x root     shell        9384 2024-02-11 21:24 dexopt
+lrwxr-xr-x root     shell             2013-11-06 22:16 df -> toolbox
+-rwxr-xr-x root     shell       66964 2024-02-11 21:24 dhcpcd
+-rwxr-xr-x root     shell        9380 2024-02-11 21:24 diag_callback_client
+-rwxr-xr-x root     shell       13620 2024-02-11 21:24 diag_dci_sample
+-rwxr-xr-x root     shell        5396 2024-02-11 21:24 diag_klog
+-rwxr-xr-x root     shell       18304 2024-02-11 21:24 diag_mdlog
+-rwxr-xr-x root     shell        9560 2024-02-11 21:24 diag_mdlog-getlogs
+-rwxr-xr-x root     shell        5284 2024-02-11 21:24 diag_mdlog-wrap
+-rwxr-xr-x root     shell       17968 2024-02-11 21:24 diag_socket_log
+-rwxr-xr-x root     shell        9736 2024-02-11 21:24 diag_uart_log
+lrwxr-xr-x root     shell             2013-11-06 22:16 dmesg -> toolbox
+-rwxr-xr-x root     shell      105796 2024-02-11 21:24 dnsmasq
+-rwxr-xr-x root     shell       50448 2024-02-11 21:24 drmserver
+-rwxr-xr-x root     shell        5284 2024-02-11 21:24 dropboxd
+-rwxr-xr-x root     shell         251 2013-11-06 22:12 dropboxhelper
+-rwxr-xr-x root     shell       58776 2024-02-11 21:24 ds_fmc_appd
+-rwxr-xr-x root     shell        9484 2024-02-11 21:24 dsdnsutil
+lrwxr-xr-x root     shell             2013-11-06 22:16 du -> toolbox
+-rwxr-xr-x root     shell       42268 2024-02-11 21:24 dumpstate
+-rwxr-xr-x root     shell        9436 2024-02-11 21:24 dumpsys
+-rwxr-xr-x root     shell      122500 2024-02-11 21:24 e2fsck
+-rwxr-xr-x root     shell        5284 2024-02-11 21:24 ebtables
+-rwxr-xr-x root     shell       30184 2024-02-11 21:24 flatland
+-rwxr-xr-x root     shell       22184 2024-02-11 21:24 fm_qsoc_patches
+-rwxr-xr-x root     shell       13636 2024-02-11 21:24 fmconfig
+-rwxr-xr-x root     shell        5284 2024-02-11 21:24 fmfactorytest
+-rwxr-xr-x root     shell       13528 2024-02-11 21:24 fmfactorytestserver
+-rwxr-xr-x root     shell       34372 2024-02-11 21:24 fsck_msdos
+-rwxr-xr-x root     shell       50648 2024-02-11 21:24 ftmdaemon
+-rwxr-xr-x root     shell       13528 2024-02-11 21:24 ftmipcd
+lrwxr-xr-x root     shell             2013-11-06 22:16 getconfig -> motobox
+lrwxr-xr-x root     shell             2013-11-06 22:16 getenforce -> toolbox
+lrwxr-xr-x root     shell             2013-11-06 22:16 getevent -> toolbox
+lrwxr-xr-x root     shell             2013-11-06 22:16 getprop -> toolbox
+lrwxr-xr-x root     shell             2013-11-06 22:16 getsebool -> toolbox
+-rwxr-xr-x root     shell       42392 2024-02-11 21:24 gpsone_daemon
+lrwxr-xr-x root     shell             2013-11-06 22:16 grep -> toolbox
+-rwxr-xr-x root     shell        9436 2024-02-11 21:24 gzip
+-rwxr-xr-x root     shell        6620 2013-11-06 22:12 hardware_revisions.sh
+-rwxr-xr-x root     shell      124948 2024-02-11 21:24 hci_qcomm_init
+lrwxr-xr-x root     shell             2013-11-06 22:16 hd -> toolbox
+-rwxr-xr-x root     shell      318472 2024-02-11 21:24 hostapd
+lrwxr-xr-x root     shell             2013-11-06 22:16 id -> toolbox
+lrwxr-xr-x root     shell             2013-11-06 22:16 ifconfig -> toolbox
+lrwxr-xr-x root     shell             2013-11-06 22:16 iftop -> toolbox
+-rwxr-xr-x root     shell         194 2013-11-06 22:12 ime
+-rwxr-xr-x root     shell       38240 2013-11-06 22:12 ims_rtp_daemon
+-rwxr-xr-x root     shell      103880 2013-11-06 22:12 imsdatadaemon
+-rwxr-xr-x root     shell       75096 2013-11-06 22:12 imsqmidaemon
+-rwxr-xr-x root     shell         201 2013-11-06 22:12 input
+lrwxr-xr-x root     shell             2013-11-06 22:16 insmod -> toolbox
+lrwxrwxrwx root     root              1970-02-03 18:25 install-recovery.sh -> /system/etc/install-recovery.sh
+-rwxr-xr-x root     shell       30152 2024-02-11 21:24 installd
+lrwxr-xr-x root     shell             2013-11-06 22:16 ioctl -> toolbox
+lrwxr-xr-x root     shell             2013-11-06 22:16 ionice -> toolbox
+-rwxr-xr-x root     shell      165480 2024-02-11 21:24 ip
+-rwxr-xr-x root     shell      191448 2024-02-11 21:24 ip6tables
+-rwxr-xr-x root     shell      196240 2024-02-11 21:24 iptables
+-rwxr-xr-x root     shell        5284 2024-02-11 21:24 irsc_util
+-rwxr-xr-x root     shell       99688 2024-02-11 21:24 isdbtmmtest
+-rwxr-xr-x root     shell      105776 2008-08-01 08:00 keymaster_test
+-rwxr-xr-x root     shell       38268 2024-02-11 21:24 keystore
+lrwxr-xr-x root     shell             2013-11-06 22:16 kill -> toolbox
+-rwxr-xr-x root     shell        9432 2024-02-11 21:24 kpgather
+-rwxr-xr-x root     shell       63596 2024-02-11 21:24 linker
+lrwxr-xr-x root     shell             2013-11-06 22:16 ln -> toolbox
+lrwxr-xr-x root     shell             2013-11-06 22:16 load_policy -> toolbox
+-rwxr-xr-x root     shell       46536 2013-11-06 22:12 location-mq
+lrwxr-xr-x root     shell             2013-11-06 22:16 log -> toolbox
+-rwxr-xr-x root     shell       13584 2024-02-11 21:24 logcat
+-rwxr-xr-x root     shell       13608 2024-02-11 21:24 logwrapper
+lrwxr-xr-x root     shell             2013-11-06 22:16 ls -> toolbox
+lrwxr-xr-x root     shell             2013-11-06 22:16 lsmod -> toolbox
+lrwxr-xr-x root     shell             2013-11-06 22:16 lsof -> toolbox
+-rwxr-xr-x root     shell        9496 2024-02-11 21:24 make_ext4fs
+lrwxr-xr-x root     shell             2013-11-06 22:16 masterclear -> motobox
+-rwxr-xr-x root     shell        9432 2024-02-11 21:24 mbm_spy
+-rwxr-xr-x root     shell       66828 2024-04-13 10:12 mcDriverDaemon
+-rwxr-xr-x root     shell        5360 2013-11-06 22:12 mcStarter
+lrwxr-xr-x root     shell             2013-11-06 22:16 md5 -> toolbox
+lrwxr-xr-x root     shell             2013-11-06 22:16 md5sum -> motobox
+-rwxr-xr-x root     shell      255336 2024-04-13 10:12 mdnsd
+-rwxr-xr-x root     shell         210 2013-11-06 22:12 media
+-rwxr-xr-x root     shell       13536 2024-02-11 21:24 mediaserver
+lrwxr-xr-x root     shell             2013-11-06 22:16 mkdir -> toolbox
+-rwxr-xr-x root     shell       17716 2024-02-11 21:24 mkfs.f2fs_arm
+-rwxr-xr-x root     shell      157424 2024-02-11 21:24 mksh
+lrwxrwxrwx root     root              2024-02-11 21:27 mkswap -> toolbox
+-rwxr-xr-x root     shell       21792 2024-02-11 21:24 mm-jpeg-dec-test
+-rwxr-xr-x root     shell       21792 2024-02-11 21:24 mm-jpeg-enc-test
+-rwxr-xr-x root     shell       54792 2024-02-11 21:24 mm-pp-daemon
+-rwxr-xr-x root     shell       54716 2024-02-11 21:24 mm-qcamera-app
+-rwxr-xr-x root     shell       13536 2024-02-11 21:24 mm-qcamera-daemon
+-rwxr-xr-x root     shell       13532 2024-02-11 21:24 mm-qjpeg-dec-test
+-rwxr-xr-x root     shell       13532 2024-02-11 21:24 mm-qjpeg-enc-test
+-rwxr-xr-x root     shell       21780 2024-02-11 21:24 mm-qomx-ienc-test
+-rwxr-xr-x root     shell       42292 2024-02-11 21:24 mm-vdec-omx-test
+-rwxr-xr-x root     shell       34076 2024-02-11 21:24 mm-venc-omx-test720p
+-rwxr-xr-x root     shell       17572 2024-02-11 21:24 mm-video-driver-test
+-rwxr-xr-x root     shell       13476 2024-02-11 21:24 mm-video-encdrv-test
+-rwxr-xr-x root     shell         217 2013-11-06 22:12 monkey
+-rwxr-xr-x root     shell        2324 2013-11-06 22:12 moto_com.sh
+-rwxr-xr-x root     shell       26064 2024-02-11 21:24 motobox
+lrwxr-xr-x root     shell             2013-11-06 22:16 mount -> toolbox
+-rwxr-xr-x root     shell        1881 2013-11-06 22:12 mount_ext4.sh
+-rwxr-xr-x root     shell        9440 2024-02-11 21:24 mountpds
+-rwxr-xr-x root     shell       34712 2024-02-11 21:24 mpdecision
+-rwxr-xr-x root     shell       17844 2024-02-11 21:24 mtpd
+lrwxr-xr-x root     shell             2013-11-06 22:16 mv -> toolbox
+-rwxr-xr-x root     shell        5284 2024-02-11 21:24 n_smux
+lrwxr-xr-x root     shell             2013-11-06 22:16 nandread -> toolbox
+-rwxr-xr-x root     shell        5284 2024-02-11 21:24 ndc
+-rwxr-s--- root     inet         5468 2024-02-11 21:24 netcfg
+-rwxr-xr-x root     shell      100044 2024-02-11 21:24 netd
+-rwxr-xr-x root     shell      168480 2024-02-11 21:24 netmgrd
+lrwxr-xr-x root     shell             2013-11-06 22:16 netstat -> toolbox
+lrwxr-xr-x root     shell             2013-11-06 22:16 newfs_msdos -> toolbox
+-rwxr-xr-x root     shell        5284 2024-02-11 21:24 nl_listener
+lrwxr-xr-x root     shell             2013-11-06 22:16 notify -> toolbox
+-rwxr-xr-x root     shell       79204 2008-08-01 08:00 oatdump
+-rwxr-xr-x root     root        26060 2024-02-11 21:24 ping
+-rwxr-xr-x root     shell       30420 2008-08-01 08:00 ping6
+-rwxr-xr-x root     shell         191 2013-11-06 22:12 pm
+-rwxr-xr-x root     shell       17736 2024-02-11 21:24 port-bridge
+-rwxr-xr-x root     shell      141852 2024-02-11 21:24 pppd
+lrwxr-xr-x root     shell             2013-11-06 22:16 printenv -> toolbox
+lrwxr-xr-x root     shell             2013-11-06 22:16 ps -> toolbox
+lrwxr-xr-x root     shell             2013-11-06 22:16 ptf -> motobox
+-rwxr-xr-x root     shell       21884 2024-02-11 21:24 ptt_socket_app
+-rwxr-xr-x root     shell       30280 2024-02-11 21:24 qmi_motext_hook
+-rwxr-xr-x root     shell      166048 2024-02-11 21:24 qmiproxy
+-rwxr-xr-x root     shell       65964 2024-02-11 21:24 qmuxd
+-rwxr-xr-x root     shell       21980 2024-02-11 21:24 qseecom_sample_client
+-rwxr-xr-x root     shell        9432 2024-02-11 21:24 qseecom_security_test
+-rwxr-xr-x root     shell        5472 2024-02-11 21:24 qseecomd
+-rwxr-xr-x root     shell      162700 2024-02-11 21:24 racoon
+-rwxr-xr-x root     shell       30024 2024-02-11 21:24 radish
+lrwxrwxrwx root     root              2024-02-11 21:27 readlink -> toolbox
+-rwxr-xr-x root     shell        5284 2008-08-01 08:00 reboot
+-rwxr-xr-x root     shell        9384 2024-02-11 21:24 recover_userdata
+-rwxr-xr-x root     shell       71232 2008-08-01 08:00 refuse
+-rwxr-xr-x root     shell        9780 2024-02-11 21:24 regdbdump
+lrwxr-xr-x root     shell             2013-11-06 22:16 renice -> toolbox
+-rwxr-xr-x root     shell         188 2013-11-06 22:12 requestsync
+-rwxr-xr-x root     shell       25816 2024-02-11 21:24 resize2fs
+lrwxr-xr-x root     shell             2013-11-06 22:16 restorecon -> toolbox
+-rwxr-xr-x root     shell       14372 2024-02-11 21:24 rfs_access
+-rwxr-xr-x root     shell        9496 2024-02-11 21:24 rild
+lrwxr-xr-x root     shell             2013-11-06 22:16 rm -> toolbox
+lrwxr-xr-x root     shell             2013-11-06 22:16 rmdir -> toolbox
+lrwxr-xr-x root     shell             2013-11-06 22:16 rmmod -> toolbox
+-rwxr-xr-x root     shell       19340 2024-02-11 21:24 rmt_storage
+lrwxr-xr-x root     shell             2013-11-06 22:16 route -> toolbox
+-rwxr-x--- root     shell        9432 2024-02-11 21:24 run-as
+lrwxr-xr-x root     shell             2013-11-06 22:16 runcon -> toolbox
+-rwxr-xr-x root     shell       17624 2024-02-11 21:24 sapd
+-rwxr-xr-x root     shell        5284 2024-02-11 21:24 schedtest
+lrwxr-xr-x root     shell             2013-11-06 22:16 schedtop -> toolbox
+-rwxr-xr-x root     shell        9384 2024-02-11 21:24 screencap
+-rwxr-xr-x root     shell       17796 2008-08-01 08:00 screenrecord
+-rwxr-xr-x root     shell       42352 2024-02-11 21:24 screenshot
+-rwxr-xr-x root     shell       17624 2024-02-11 21:24 sdcard
+lrwxr-xr-x root     shell             2013-11-06 22:16 sendevent -> toolbox
+lrwxr-xr-x root     shell             2013-11-06 22:16 sendevent2 -> toolbox
+-rwxr-xr-x root     shell        5336 2024-02-11 21:24 sensorservice
+-rwxr-xr-x root     shell        9436 2024-02-11 21:24 service
+-rwxr-xr-x root     shell        9588 2024-02-11 21:24 servicemanager
+lrwxr-xr-x root     shell             2013-11-06 22:16 setconfig -> motobox
+lrwxr-xr-x root     shell             2013-11-06 22:16 setconsole -> toolbox
+lrwxr-xr-x root     shell             2013-11-06 22:16 setenforce -> toolbox
+lrwxr-xr-x root     shell             2013-11-06 22:16 setfattr -> toolbox
+lrwxr-xr-x root     shell             2013-11-06 22:16 setprop -> toolbox
+lrwxr-xr-x root     shell             2013-11-06 22:16 setsebool -> toolbox
+-rwxr-xr-x root     shell         178 2013-11-06 22:12 settings
+-rwxr-xr-x root     shell        5336 2024-02-11 21:24 setup_fs
+lrwxr-xr-x root     shell             2013-11-06 22:16 sh -> mksh
+-rwxr-xr-x root     shell       38280 2024-02-11 21:24 slateipcd
+lrwxr-xr-x root     shell             2013-11-06 22:16 sleep -> toolbox
+lrwxr-xr-x root     shell             2013-11-06 22:16 smd -> toolbox
+-rwxr-xr-x root     shell        5344 2024-02-11 21:24 ssr_diag
+lrwxr-xr-x root     shell             2013-11-06 22:16 start -> toolbox
+lrwxr-xr-x root     shell             2013-11-06 22:16 stop -> toolbox
+-rwxr-xr-x root     shell       17812 2024-02-11 21:24 subsystem_ramdump
+-rwxr-xr-x root     shell        5284 2024-02-11 21:24 surfaceflinger
+-rwxr-xr-x root     shell         192 2013-11-06 22:12 svc
+lrwxrwxrwx root     root              2024-02-11 21:27 swapoff -> toolbox
+lrwxrwxrwx root     root              2024-02-11 21:27 swapon -> toolbox
+lrwxr-xr-x root     shell             2013-11-06 22:16 sync -> toolbox
+-rwxr-xr-x root     shell       62980 2024-02-11 21:24 tc
+-rwxr-xr-x root     shell      409484 2024-02-11 21:24 tcmd
+-rwxr-xr-x root     shell       46504 2024-02-11 21:24 tcmdhelp
+lrwxr-xr-x root     shell             2013-11-06 22:16 test -> motobox
+-rwxr-xr-x root     shell        9492 2024-02-11 21:24 test_diag
+-rwxr-xr-x root     shell      256468 2024-02-11 21:24 thermal-engine
+-rwxr-xr-x root     shell       17688 2024-02-11 21:24 time_daemon
+-rwxr-xr-x root     shell        5284 2024-02-11 21:24 timedexec
+-rwxr-xr-x root     shell       26016 2013-11-06 22:12 tlcWrapperApp
+-rwxr-xr-x root     shell      143120 2024-02-11 21:24 toolbox
+lrwxr-xr-x root     shell             2013-11-06 22:16 top -> toolbox
+lrwxr-xr-x root     shell             2013-11-06 22:16 touch -> toolbox
+-rwxr-xr-x root     shell        3814 2024-02-11 21:24 uiautomator
+lrwxr-xr-x root     shell             2013-11-06 22:16 umount -> toolbox
+-rwxr-xr-x root     shell      291688 2024-02-11 21:24 updater
+lrwxr-xr-x root     shell             2013-11-06 22:16 uptime -> toolbox
+-rwxr-xr-x root     shell        5284 2024-02-11 21:24 vdc
+lrwxr-xr-x root     shell             2013-11-06 22:16 vmstat -> toolbox
+-rwxr-xr-x root     shell       91780 2024-02-11 21:24 vold
+lrwxr-xr-x root     shell             2013-11-06 22:16 watchprops -> toolbox
+-rwxr-xr-x root     shell        5336 2024-02-11 21:24 wcnss_service
+-rwxr-xr-x root     shell        9432 2024-02-11 21:24 wdsdaemon
+lrwxr-xr-x root     shell             2013-11-06 22:16 wipe -> toolbox
+-rwxr-xr-x root     shell         190 2013-11-06 22:12 wm
+-rwxr-xr-x root     shell      802116 2024-02-11 21:24 wpa_supplicant
+-rwxr-xr-x root     shell      649372 2013-11-06 22:12 xtwifi-client
+-rwxr-xr-x root     shell       87560 2013-11-06 22:12 xtwifi-inet-agent
+shell@falcon_cdma:/ $
